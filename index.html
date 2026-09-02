@@ -21,41 +21,42 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "@id": "https://theoleburu.github.io/theotember/#theotember",
-  "name": "Theotember",
-  "alternateName": "Theotember (noun)",
-  "description": "September, when it belongs to someone named Theo; the whole month treated as one long birthday rather than a single day. By extension, the point in the year when winter lets go and things start growing again.",
-  "termCode": "theotember",
-  "inDefinedTermSet": {
-    "@type": "DefinedTermSet",
-    "name": "Theotember",
-    "url": "https://theoleburu.github.io/theotember/"
-  },
-  "url": "https://theoleburu.github.io/theotember/"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Theotember — meaning, definition and pronunciation",
-  "url": "https://theoleburu.github.io/theotember/",
-  "inLanguage": "en",
-  "datePublished": "2026-09-02",
-  "about": { "@id": "https://theoleburu.github.io/theotember/#theotember" },
-  "mainEntity": {
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "What does Theotember mean?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Theotember is a noun meaning September, when it belongs to someone named Theo — the whole month treated as one long birthday rather than a single day. It is a blend of the name Theo and the month September."
+  "@graph": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://theoleburu.github.io/theotember/#theotember",
+      "name": "Theotember",
+      "alternateName": "Theotember (noun)",
+      "description": "September, when it belongs to someone named Theo; the whole month treated as one long birthday rather than a single day. By extension, the point in the year when winter lets go and things start growing again.",
+      "termCode": "theotember",
+      "url": "https://theoleburu.github.io/theotember/",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "@id": "https://theoleburu.github.io/theotember/#termset",
+        "name": "Theotember",
+        "url": "https://theoleburu.github.io/theotember/"
       }
-    }]
-  }
+    },
+    {
+      "@type": ["WebPage", "FAQPage"],
+      "@id": "https://theoleburu.github.io/theotember/#webpage",
+      "name": "Theotember — meaning, definition and pronunciation",
+      "url": "https://theoleburu.github.io/theotember/",
+      "inLanguage": "en",
+      "datePublished": "2026-09-02",
+      "about": { "@id": "https://theoleburu.github.io/theotember/#theotember" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Theotember mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theotember is a noun meaning September, when it belongs to someone named Theo — the whole month treated as one long birthday rather than a single day. It is a blend of the name Theo and the month September."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 
